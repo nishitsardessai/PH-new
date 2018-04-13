@@ -104,5 +104,22 @@ $(document).ready(function() {
   -------------------------------*/
   new WOW({ mobile: false }).init();
 
+//   google form script
+    var $form = $('newsletter-signup'),
+        url = 'https://script.google.com/macros/s/AKfycbxr3pkW-xXU1X7OJj6I2KkwKgao7_t4uAbzbh2pxPdoEGsJpBaY/exec'
+
+    $('#submit').on('click', function (e) {
+        e.preventDefault();
+        var jqxhr = $.ajax({
+            url: url,
+            method: "GET",
+            dataType: "json",
+            data: $form.serializeObject()
+        }).success(
+            console.log('DONEEEE')
+            
+        );
+    })
+
   });
 

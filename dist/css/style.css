@@ -1,4 +1,4 @@
-  
+
 body {
     background: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
@@ -205,6 +205,10 @@ a {
   background-color: transparent;
 }
 
+/* My styles   */
+.navbar-brand-img{
+  padding-top: 12px;
+}
 
 
 /*---------------------------------------
