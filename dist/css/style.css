@@ -1,3 +1,12 @@
+.list-group-item{
+  background-color: transparent;
+  border: none;
+  color: white;
+     /* #989898; */
+}
+
+
+
 
 body {
     background: #ffffff;
@@ -208,8 +217,24 @@ a {
 /* My styles   */
 .navbar-brand-img{
   padding-top: 12px;
+  width: 300px;
+ 
 }
 
+@media screen and(max-width: 1080px){
+    .navbar-brand-img{
+      padding-top: 0px;
+    width: 250px;
+ 
+}
+}
+ @media screen and (max-width: 768px){
+    .navbar-brand-img{
+      padding-top: 0px;
+    width: 200px;
+ 
+}
+}
 
 /*---------------------------------------
     Home section              
