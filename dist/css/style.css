@@ -1,3 +1,32 @@
+
+/* MY Styles */
+/* navbar responsive */
+@media (min-width: 992px){
+.navbar-correct {
+    width: auto;
+}
+}
+@media(min-width:768px) {
+   .navbar-collapse {
+    width: auto;
+    /* more code here */
+}
+}
+
+
+/* BLOG- TYPES OF WHEY IMAGES */
+
+@media (max-width: 768px) {
+  .img-correct{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+}
+
+
+
+/* original code */
 .list-group-item{
   background-color: transparent;
   border: none;
@@ -227,6 +256,8 @@ a {
     width: 250px;
  
 }
+
+
 }
  @media screen and (max-width: 768px){
     .navbar-brand-img{
@@ -235,6 +266,7 @@ a {
  
 }
 }
+
 
 /*---------------------------------------
     Home section              
